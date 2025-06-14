@@ -1,0 +1,79 @@
+/* Main window */
+window {
+  margin: 0px;
+  border: 2px solid #89b4fa;
+  background-color: #1e1e2e;
+  border-radius: 15px;
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+}
+
+/* Search input */
+#input {
+  margin: 10px;
+  border: 2px solid #313244;
+  color: #cdd6f4;
+  background-color: #313244;
+  font-family: system-ui, sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#input:focus {
+  border: 2px solid #89b4fa;
+  outline: none;
+}
+
+/* Inner box */
+#inner-box {
+  margin: 5px;
+  border: none;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+/* Outer box */
+#outer-box {
+  margin: 5px;
+  border: none;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+/* Scroll area */
+#scroll {
+  margin: 0px;
+  border: none;
+}
+
+/* Text in entries */
+#text {
+  margin: 5px;
+  border: none;
+  color: #cdd6f4;
+  font-weight: bold;
+}
+
+/* Entry containers */
+#entry {
+  padding: 8px;
+  margin: 2px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: none;
+}
+
+#entry:selected {
+  background-color: #89b4fa;
+}
+
+#entry:selected #text {
+  color: #1e1e2e;
+}
+
+/* Images/icons */
+#img {
+  margin-right: 10px;
+  border-radius: 4px;
+}
